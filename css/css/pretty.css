@@ -1,0 +1,194 @@
+a:hover {
+font-family: 'Montserrat';
+font-weight: 900;
+color: #FFCD00;
+text-decoration: none;
+
+font-style: normal;
+    
+
+    
+}
+
+h1{
+    font-family: 'Montserrat';
+}
+
+
+.rightfloat {
+  
+  right: 0%;
+  font-weight: 900;
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-size: 20px;
+  writing-mode:tb-rl;
+  writing-mode:vertical-lr;
+  font-weight: 00;
+  writing-mode:sideways-lr; 
+  position: fixed;
+ 
+/*  position: fixed;*/
+    
+}
+
+.white{
+    background-color: white;
+}
+.space{
+    height: 35px;
+}
+.ash {
+  position: fixed;
+  transform: rotate(-25deg);
+  font-size: 25px;
+  font-weight: 900;
+  font-family: 'Montserrat';
+  font-style: italic;
+  color: #FFCD00;
+}
+
+.thing{
+  
+    width: 400px;
+}
+
+.bottom{
+    padding-bottom: 40px;
+}
+/*
+.fixed{
+    position: fixed;
+}
+*/
+.move{
+    padding-bottom: 30px;
+    padding-top: 80px;
+}
+
+.movee{
+     
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+a{
+    color: #FFCD00;
+    text-decoration: none;
+}
+
+
+.onthis{
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+li {
+  display:inline-block;
+}
+
+
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+body{
+  background-color: black;
+  /* Stops the body from going under the navbar */
+  padding-top: 30px;
+}
+nav{
+ 
+}
+.all-cols{
+  border-style: solid;
+  /* border-color: yellow; */
+}
+#img-got{
+  padding: 10px;
+  height: 400px;
+  width: auto;
+}
+#img-foo{
+  padding: 10px;
+  height: 400px;
+  z-index: -100;
+}
+/* 
+# Responsive breakpoints
+# https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints
+Extra small   <576px  	.col-
+Small         ≥576px    .col-sm-
+Medium        ≥768px    .col-md-
+Large         ≥992px    .col-lg-
+Extra large   ≥1200px   .col-xl-
+*/
+
+/* Apply these rules if the screen width is LESS than 576px */
+
+@media(max-width:576px){
+  h2{
+    font-size: 1rem
+  }
+  #img-foo{
+    display: none;
+  }
+  .all-cols{
+    border-color:black;
+  }
+}
+
+/* Apply these rules if the screen width is GREATER than 576px */
+
+@media (min-width: 576px) {
+  .all-cols{
+    border-color:white;
+  }
+}
+
+/* Apply these rules if the screen width is GREATER than 768px */
+
+@media (min-width: 768px) {
+  .all-cols{
+    border-color:blue;
+  }
+}
+
+/* Apply these rules if the screen width is GREATER than 992px */
+
+@media (min-width: 992px) {
+  .all-cols{
+  
+  }
+}
+
+/* Apply these rules if the screen width is GREATER than 1200px */
+
+@media (min-width: 1200px) {
+  .all-cols{
+    border-color:red;
+  }
+}
