@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+   
+      
+      
+      <!-- Hide this line for IE (needed for Firefox and others) -->
+<![if !IE]>
+<link rel="icon" href="img/toilet.png" type="image/x-icon" />
+<![endif]>
+<!-- This is needed for IE -->
+<link rel="shortcut icon" href="img/toilet.png" type="image/png" />
+     
+     
+      
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
@@ -14,6 +26,35 @@
     <link href="css/newCss.css" rel="stylesheet">
 
    
+    <style type="text/css">
+    	
+	.slick-dots li button:before{
+		content: '•';
+		font-size: 15px;
+		-webkit-text-stroke: 1px #FFBC00;
+		color: transparent;
+		opacity: 1;
+	}
+
+	.slick-dots li.slick-active button:before
+	{
+    opacity: 1;
+    font-size: 15px;
+    content: '•';
+    color:#FFBC00;
+	}
+
+	.stroke{
+				  /* WebKit (Safari/Chrome) Only */
+		  -webkit-text-stroke: 1px #FFBC00;
+		  
+		  /* If we weren't using text-shadow, we'd set a fallback color
+		     and use this to set color instead
+		    -webkit-text-fill-color: white; */
+		  
+		  color: transparent !important;
+	}
+    </style>
    
   </head>
  
@@ -47,7 +88,7 @@
 
 
     <ul class="mainnav">
-		<li><a href="Gallery2.html" class="stroke">WORK</a></li>
+		<li><a href="Gallery2.html" >WORK</a></li>
 		<li><a href="contact.html">CONTACT</a></li>
 		<li><a href="photography.html">OUT + ABOUT</a></li>
 	</ul>
@@ -55,8 +96,9 @@
     
        
   
-        
-     
+   
+
+
         
          
          
@@ -72,24 +114,65 @@
 </div>
 <div class="navMobile">
 	<ul class="mobnav">
-		<li><a href="Gallery2.html" class="stroke ">MY WORK</a></li>
+	  <li><a href="index.html" class="stroke">GO HOME</a>
+		<li><a href="Gallery2.html" class="">MY WORK</a></li>
 		<li><a href="contact.html">CONTACT ME</a></li>
 		<li><a href="photography.html">OUT+ABOUT</a></li>
 	</ul>
 </div>
 
       </div>
-         
- 
+        
+        
+        
+        
    
-                
-                  
-                    
-                      
- 
-    
+        
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+          
+<div class="mobile">
 
-     
+       <video id="video3" >
+        <source src="video/milk_ENCODED.mp4" type="video/mp4;" >
+          Your browser does not support HTML5 video.
+         </video>
+
+     <img id="mob-imgindex" src="Moving_gif/bomb_shudder.gif"  onmouseover="mobhoverhome(this);" onmouseout="mobunhoverhome(this);" />
+        
+ </div>  
+              
+                   
+                        
+                             
+                                  
+                                       
+                                                 
+<div class="dissapearwhensmall">
+   <video id="video4" >
+    <source src="video/milk_ENCODED.mp4" type="video/mp4" >
+    Your browser does not support HTML5 video.
+    </video>
+
+     <img id="imgindex" src="Moving_gif/bomb_shudder.gif" onclick="bigunhoverindex(this);" onmouseout="bighoverindex(this);" />             
+                    
+ </div>                     
+ 
     
     
     </div>
