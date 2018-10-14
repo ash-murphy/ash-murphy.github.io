@@ -1,4 +1,98 @@
 
+
+
+
+
+
+
+
+
+	function mobhoverhome(element) {
+  		element.setAttribute('src', 'Moving_gif/bomb_expload.gif');
+  		var myVideo = document.getElementById("video3"); 
+  		myVideo.style.visibility = "visible";
+  		myVideo.style.transition= "visibility 0s, opacity 0.5s linear";
+  		myVideo.style.opacity = 1;
+  		myVideo.play(); 
+  		
+		}
+
+		function mobunhoverhome(element) {
+		  element.setAttribute('src', 'Moving_gif/bomb_shudder.gif');
+		  var myVideo = document.getElementById("video3"); 
+		  myVideo.style.opacity = 0;
+		  myVideo.style.transition= "visibility 1s, opacity 0.5s linear";
+		  myVideo.style.visibility = "hidden";
+		  myVideo.pause(); 
+		}
+
+
+
+		function bigunhoverindex(element) {
+  		element.setAttribute('src', 'Moving_gif/bomb_expload.gif');
+  		var myVideo = document.getElementById("video4"); 
+  		myVideo.style.visibility = "visible";
+  		myVideo.style.transition= "visibility 0s, opacity 0.5s linear";
+  		myVideo.style.opacity = 1;
+  		myVideo.play(); 
+  		
+		}
+
+		function bighoverindex(element) {
+		  element.setAttribute('src', 'Moving_gif/bomb_shudder.gif');
+		  var myVideo = document.getElementById("video4"); 
+		  myVideo.style.opacity = 0;
+		  myVideo.style.transition= "visibility 1s, opacity 0.5s linear";
+		  myVideo.style.visibility = "hidden";
+		  myVideo.pause(); 
+		}
+
+
+
+
+function bigcontacthover(element) {
+  		element.setAttribute('src', 'Moving_gif/toiletpaper_flying_1.gif');
+  		var myVideo = document.getElementById("video5"); 
+  		myVideo.style.visibility = "visible";
+  		myVideo.style.transition= "visibility 0s, opacity 0.5s linear";
+  		myVideo.style.opacity = 1;
+  		myVideo.play(); 
+  		
+		}
+
+		function bigcontactunhover(element) {
+		  element.setAttribute('src', 'Moving_gif/toilet-commp_1.gif');
+		  var myVideo = document.getElementById("video5"); 
+		  myVideo.style.opacity = 0;
+		  myVideo.style.transition= "visibility 1s, opacity 0.5s linear";
+		  myVideo.style.visibility = "hidden";
+		  myVideo.pause(); 
+		}
+
+
+
+function mobcontacthover(element) {
+  		element.setAttribute('src', 'Moving_gif/toiletpaper_flying_1.gif');
+  		var myVideo = document.getElementById("video6"); 
+  		myVideo.style.visibility = "visible";
+  		myVideo.style.transition= "visibility 0s, opacity 0.5s linear";
+  		myVideo.style.opacity = 1;
+  		myVideo.play(); 
+  		
+		}
+
+		function mobcontactunhover(element) {
+		  element.setAttribute('src', 'Moving_gif/toilet-commp_1.gif');
+		  var myVideo = document.getElementById("video6"); 
+		  myVideo.style.opacity = 0;
+		  myVideo.style.transition= "visibility 1s, opacity 0.5s linear";
+		  myVideo.style.visibility = "hidden";
+		  myVideo.pause(); 
+		}
+
+
+
+
  
 
     $(document).ready(function(){
@@ -60,24 +154,7 @@
     });
 
 
-	function mobhoverhome(element) {
-  		element.setAttribute('src', 'Moving_gif/bomb_expload.gif');
-  		var myVideo = document.getElementById("video3"); 
-  		myVideo.style.visibility = "visible";
-  		myVideo.style.transition= "visibility 0s, opacity 0.5s linear";
-  		myVideo.style.opacity = 1;
-  		myVideo.play(); 
-  		
-		}
 
-		function mobunhoverhome(element) {
-		  element.setAttribute('src', 'Moving_gif/bomb_shudder.gif');
-		  var myVideo = document.getElementById("video3"); 
-		  myVideo.style.opacity = 0;
-		  myVideo.style.transition= "visibility 1s, opacity 0.5s linear";
-		  myVideo.style.visibility = "hidden";
-		  myVideo.pause(); 
-		}
 
 
     function hover(element) {
@@ -151,7 +228,7 @@
       }
       else if(yPos < 1400) {
         desc.innerHTML = "MOTYF";
-        details.innerHTML = "Visual Identity ";
+        details.innerHTML = "Visual Identity";
         var newcheck=3;
         if (newcheck!=check){
           check=3;
