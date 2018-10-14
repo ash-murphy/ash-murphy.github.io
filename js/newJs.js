@@ -59,6 +59,27 @@
 		  
     });
 
+
+	function mobhoverhome(element) {
+  		element.setAttribute('src', 'Moving_gif/bomb_expload.gif');
+  		var myVideo = document.getElementById("video3"); 
+  		myVideo.style.visibility = "visible";
+  		myVideo.style.transition= "visibility 0s, opacity 0.5s linear";
+  		myVideo.style.opacity = 1;
+  		myVideo.play(); 
+  		
+		}
+
+		function mobunhoverhome(element) {
+		  element.setAttribute('src', 'Moving_gif/bomb_shudder.gif');
+		  var myVideo = document.getElementById("video3"); 
+		  myVideo.style.opacity = 0;
+		  myVideo.style.transition= "visibility 1s, opacity 0.5s linear";
+		  myVideo.style.visibility = "hidden";
+		  myVideo.pause(); 
+		}
+
+
     function hover(element) {
   		element.setAttribute('src', 'Moving_gif/milkfall.gif');
   		var myVideo = document.getElementById("video1"); 
@@ -97,6 +118,11 @@
 		  myVideo.style.visibility = "hidden";
 		  myVideo.pause(); 
 		}
+
+
+
+
+
 
     var check=1;
     var pagetop, menu, yPos;
