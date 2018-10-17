@@ -1,4 +1,11 @@
 
+$(window).scroll(function(){
+    $(".top").css("opacity", 1 - $(window).scrollTop() / 550);
+  });
+
+
+
+
 
 
 
@@ -8,7 +15,7 @@
 
 
 	function mobhoverhome(element) {
-  		element.setAttribute('src', 'Moving_gif/bomb_expload.gif');
+  		element.setAttribute('src','gif/boom.gif');
   		var myVideo = document.getElementById("video3"); 
   		myVideo.style.visibility = "visible";
   		myVideo.style.transition= "visibility 0s, opacity 0.5s linear";
@@ -29,7 +36,7 @@
 
 
 		function bigunhoverindex(element) {
-  		element.setAttribute('src', 'Moving_gif/bomb_expload.gif');
+  		element.setAttribute('src', 'gif/boom.gif');
   		var myVideo = document.getElementById("video4"); 
   		myVideo.style.visibility = "visible";
   		myVideo.style.transition= "visibility 0s, opacity 0.5s linear";
@@ -158,7 +165,7 @@ function mobcontacthover(element) {
 
 
     function hover(element) {
-  		element.setAttribute('src', 'Moving_gif/milkfall.gif');
+  		element.setAttribute('src', 'gif/milkfall2.gif');
   		var myVideo = document.getElementById("video1"); 
   		myVideo.style.visibility = "visible";
   		myVideo.style.transition= "visibility 0s, opacity 0.5s linear";
@@ -178,7 +185,7 @@ function mobcontacthover(element) {
 
 
 		function mobhover(element) {
-  		element.setAttribute('src', 'Moving_gif/milkfall.gif');
+  		element.setAttribute('src', 'gif/milkfall2.gif');
   		var myVideo = document.getElementById("video2"); 
   		myVideo.style.visibility = "visible";
   		myVideo.style.transition= "visibility 0s, opacity 0.5s linear";
