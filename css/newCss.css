@@ -1,12 +1,168 @@
-	
+.top{
+    margin-top: -250px;
+    width: 10px;
+    
+}
+
+
+  .maldvideobig{
+            padding-top: 250px;
+            padding-bottom: 50px;
+        }
+
+
+.sizearrow{
+    width: 40px;
+    margin-left: 52px;
+}
+
+
+
+
+.sizearrow2{
+    width: 40px;
+    margin-left: 62px;
+}
+
+
+.sizearrow3{
+    width: 40px;
+    margin-left: 62px;
+    margin-top: -400px;
+}
+
+
+.nazibigvid{
+    margin-top: -40px;
+}
+
+.topblurbmotyf{
+    padding-top: 250px;
+}
+
+
+.nazispacesubtext{
+    margin-bottom: 200px;
+}
+
+.paddingmotyf{
+    margin-bottom: 100px;
+}
+
+
+.paddingmald{
+    margin-bottom: 100px;
+     margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
 /*NAZZZIIIIIIIIIIIIIIIIII*/
 
 html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
+.secondparagraph{
+    margin-top: -210px;
+   margin-bottom: 100px;
+}
+
+/*
+
+.indexhover{
+    width: 700px;
+    position: absolute;
+
+    transform: translate(-0%, -0%);
+    opacity: 0;
+}
+
+
+
+.indexhover:hover{
+     width: 1300px;
+    padding-left: 100px;
+   text-decoration: none;
+    opacity: 100;
+    padding-top: 50px;
+    
+
+ 
+  
+
+}
+*/
+
+.buttonarrow{
+    margin-top: -260px;
+    padding-left: 50px;
+   
+}
+
+.bacg{
+ 
+    width: 1300px;
+    height: auto;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+
+
+.phoneindex{
+    margin-left: -20px;
+}
+
+
+.iconfront{
+    z-index: 100;
+}
+
+
+
+.enemy{
+    width: 1200px;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding-bottom: 200px;
+    
+    
+}
+
+
+.enemydiss{
+   text-decoration: none;
+   opacity: 100;
+   
+}
+
+
+
+
+
+.enemydiss:hover{
+   position: absolute;
+    
+    transform: translate(-0%, -0%);
+    opacity: 0;
+  
+    }
+
+
+
+
+
+
 .contactmobspace{
-    padding-top: 80px;
+    padding-top: 50px;
 }
 .bottomheavy{
     padding-bottom: 200px;
@@ -24,15 +180,18 @@ html, body {
 .nazi{
     width: 400px;
 }
+.photo{
+   text-align: center;
+}
 
 .headings{
     
-		  font-size: 25px;
+		  font-size: 30px;
 		  font-family: 'Montserrat';
 		  font-weight: 700;
 		  opacity: 1;
 		  transition: opacity 0.3s ease-in-out;
-		 
+		 line-height: 33px;
 		 padding-top:25px;
 		  left:20px;
     
@@ -58,6 +217,7 @@ html, body {
 		  font-family: 'Montserrat';
 		  font-weight: 600;
 		  opacity: 1;
+    line-height: 35px;
 		  transition: opacity 0.3s ease-in-out;
 		 margin-top: -20px;
 		  top:25px;
@@ -67,7 +227,7 @@ html, body {
 
 
 .headingssmallermob{
-      font-size: 14px;
+      font-size: 15px;
 		  font-family: 'Montserrat';
 		  font-weight: 600;
 		  opacity: 1;
@@ -79,7 +239,7 @@ html, body {
 
 
 .motyfspace{
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .subtext{
@@ -94,13 +254,13 @@ html, body {
 
 
 .subtextmob{
-      font-size: 13px;
-    line-height: 20px;
+      font-size: 15px;
+    line-height: 25px;
 		  font-family: 'Montserrat';
-		  font-weight: 200;
+		  font-weight: 400;
 		  opacity: 1;
 		  transition: opacity 0.3s ease-in-out;
-		 padding-bottom: 30px
+		 padding-bottom: 80px
 		
 }
 
@@ -191,7 +351,7 @@ hr{
 }
 
 .padmald{
-    padding-top: 85px;
+   
 }
 
 .space{
@@ -216,15 +376,100 @@ hr{
 }
 
 
-
-
 .picofme:hover{
    text-decoration: none;
     opacity: 100;
-    width: 400px;
+    width: 500px;
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.naziprocess{
+    position: absolute;
+    width: 700px;
+    transform: translate(-0%, -0%);
+    opacity: 0;
+}
+
+
+
+
+
+.naziprocess:hover{
+   text-decoration: none;
+    opacity: 100;
+    width: 700px;
     padding-bottom: -100px;
 
 }
+
+
+
+.motyfprocess{
+    position: absolute;
+    width: 710px;
+    height: auto;
+    transform: translate(-0%, -0%);
+    opacity: 0;
+}
+
+
+
+
+
+.motyfprocess:hover{
+   text-decoration: none;
+    opacity: 100;
+    width: 710px;
+    padding-bottom: -100px;
+
+}
+
+
+
+.naziprocess1{
+    position: absolute;
+    width: 700px;
+    transform: translate(-0%, -0%);
+    opacity: 0;
+}
+
+
+
+
+
+.naziprocess1:hover{
+   text-decoration: none;
+    opacity: 100;
+    width: 700px;
+    padding-bottom: -100px;
+
+}
+
 
 /*
 #Library {
@@ -258,6 +503,167 @@ hr{
 
 
 
+.rotate:hover{
+     transform: rotate(-180deg);
+}
+
+
+
+.typephoto{
+    position: absolute;
+    transform: translate(-0%, -0%);
+    font-size: 18px;
+    opacity: 0;
+}
+
+
+
+
+
+.typephoto:hover{
+   text-decoration: none;
+    opacity: 100;
+   
+    width: 700px;
+    line-height: 50px;
+   
+
+
+}
+
+
+
+/*
+.hoverash{
+    position: absolute;
+    position: fixed;
+    line-height: 20PX;
+	transform: rotate(-20deg);
+	font-size: 25px;
+	font-family: 'Montserrat';
+	font-style: italic;
+	font-weight: 900;
+	opacity: 1;
+	transition: opacity 0.3s ease-in-out;
+	color: #FFBC00;
+	  top:27px;
+		  left:21px;
+    z-index: 100;
+    text-decoration: none;
+   opacity: 0;
+ 
+}
+*/
+
+.paddingmalpencil{
+    padding-bottom: 100px;
+}
+
+.paddingmalpencil2{
+    margin-bottom: 100px;
+}
+
+
+.hoverash:hover{
+
+    opacity: 100;
+ 
+}
+
+.mobilevid{
+    margin-top: -50px;
+}
+
+.ash {
+         transition: opacity 0.3s ease-in-out;
+		  position: fixed;
+		  transform: rotate(-20deg);
+		  font-size: 25px;
+		  font-family: 'Montserrat';
+		  font-style: italic;
+		  font-weight: 900;
+		  opacity: 1;
+		 
+		  color: #FFBC00;
+		  top:30px;
+		  left:20px;
+         z-index: 100;
+        text-decoration: none;
+		}
+
+
+.ash:hover{
+   display: none;
+}
+
+.ashmob {
+     transition: opacity 0.3s ease-in-out;
+		  position: fixed;
+		  transform: rotate(-20deg);
+		  font-size: 25px;
+		  font-family: 'Montserrat';
+		  font-style: italic;
+		  font-weight: 900;
+		  opacity: 1;
+		 
+		  color: #FFBC00;
+		  top:30px;
+		  left:20px;
+         z-index: 100;
+        text-decoration: none;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.picright{
+    margin-top: -100px;
+}
+
+
+.picleft{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -265,7 +671,7 @@ hr{
 
 
 .slider {
-  	margin-top:20vh;
+  	margin-top:17vh;
   	height: 55vh;
    
     
@@ -293,39 +699,7 @@ hr{
 		background-color: black;
 	}
 
-	.ash {
-		  position: fixed;
-		  transform: rotate(-20deg);
-		  font-size: 25px;
-		  font-family: 'Montserrat';
-		  font-style: italic;
-		  font-weight: 900;
-		  opacity: 1;
-		  transition: opacity 0.3s ease-in-out;
-		  color: #FFBC00;
-		  top:25px;
-		  left:20px;
-         z-index: 100;
-        text-decoration: none;
-		}
-
-
-.ash li{
-		
-		display: block;
-		margin-bottom: 20px;
-	}
-
-	.ash a{
-	color: #FFBC00;
-    cursor: pointer;
-    text-decoration: none;
-	}
-
-	.ash a:hover{
-		font-style: normal;
-	}
-
+	
 
 
 
@@ -441,6 +815,59 @@ hr{
 		transition: visibility 1s, opacity 0.5s linear;
 	}
 
+
+
+
+		#video3{
+		position: fixed;
+		width: 100%;
+		z-index: 100;
+        left: 0;
+		top: 25vh;
+		opacity: 0;
+		visibility: hidden;
+		transition: visibility 1s, opacity 0.5s linear;
+	}
+
+	#video4{
+		position: fixed;
+		width: 80%;
+		z-index: 100;
+       padding-left: 200px;
+		top: 5vh;
+		opacity: 0;
+		visibility: hidden;
+		transition: visibility 1s, opacity 0.5s linear;
+	}
+
+	#video5{
+		position: fixed;
+		width: 84%;
+		z-index: 100;
+       padding-left: 200px;
+		top: 5vh;
+		opacity: 0;
+		visibility: hidden;
+		transition: visibility 1s, opacity 0.5s linear;
+	}
+
+
+#video6{
+		position: fixed;
+		width: 98%;
+		z-index: 100;
+      
+		top: 25vh;
+		opacity: 0;
+		visibility: hidden;
+		transition: visibility 1s, opacity 0.5s linear;
+	}
+
+
+
+
+
+
 	#desc {
    -webkit-transition: opacity .3s ease-in-out;
    -moz-transition: opacity .3s ease-in-out;
@@ -465,6 +892,26 @@ hr{
 /*MOBILE MOBILE MOBILE MOBILE MOBILE MOBEIL*/
 
 	@media (max-width: 600px) {
+        
+        
+        
+        .paddingmalpencil{
+            display: none;
+        }
+        
+        .maldvideo{
+            padding-top: 250px;
+            padding-bottom: 50px;
+        }
+/*
+*/
+        .paddingpencil{
+            padding-bottom: 20px;
+        }
+        
+        .maldpad{
+            padding-left: 12px;
+        }
   	.web{
   		display:none;
   	}
@@ -477,7 +924,9 @@ hr{
     padding-bottom: 30px;
 }
 
-        
+        .padtopmob{
+            padding-top: 30px;
+        }
       
         
         .dissapearwhensmall{
@@ -488,12 +937,14 @@ hr{
         
         .headingsmob{  
         
-        font-size: 15px;
+        font-size: 22px;
 		  font-family: 'Montserrat';
-            line-height: 20px;
+            line-height: 25px;
 		  font-weight: 700;} 
         
-        
+        .insta{
+            padding-left: 30px;
+        }  
     .countinggif{
    margin-top: 150px;
    
@@ -516,6 +967,9 @@ hr{
     padding-right: 10px;
           
 }
+        .insta{
+            margin-left: -10px;
+        }
 
 .nextbuttonmob{
    
@@ -685,10 +1139,50 @@ hr{
 	}
 
 
+#mob-imgindex{
+	width: 17%;
+    position: fixed;
+    right: 0;
+    margin-top: 80vh;
+    padding: px;
+	}
 
 
 
+#imgindex{
+	
+    position: fixed;
+    width:70px;
+    height: 70px; 
+     margin-top: 86vh;
+    margin-left: 30px;
+	}
 
+
+
+#vidcontact{
+	
+    position: fixed;
+   width:80px;
+    height: 70px; 
+
+     margin-top: 73vh;
+    margin-left: 30px;
+	}
+
+
+
+#mobindexicon{
+	width: 17%;
+    position: fixed;
+    right: 0;
+    margin-top: 58vh;
+    padding: px;
+	}
+
+
+
+ 
 
 
 
