@@ -114,8 +114,8 @@ function mobcontacthover(element) {
              autoplay:true
       });
 
-      var titles= ["TRAIL OF TERROR", "MALDIVES", "MOTYF ","ONCE UPON A TIME..."];
-      var details= ["Editorial Design", "Motion Design", "Visual Identity","Window Display Design"];
+      var titles= ["TRAIL OF TERROR", "MALDIVES", "MOTYF "];
+      var details= ["Editorial Design", "Motion Design", "Visual Identity"];
 
       $('.slider').on('afterChange', function() {
 	    var dataId = $('.slick-current').attr("data-slick-index");   
@@ -242,15 +242,7 @@ function mobcontacthover(element) {
           mobwordshuffle();
         }
       }
-      else {
-        desc.innerHTML = "ONCE UPON A TIME...";
-        details.innerHTML = "Window Display Design";
-        var newcheck=4;
-        if (newcheck!=check){
-          check=4;
-          mobwordshuffle();
-        }
-      }
+   
       
     }
 
