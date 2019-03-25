@@ -90,6 +90,12 @@
     padding-top: 30px;
     padding-bottom: 50px;
 }
+.banishedspace{
+    padding-top: 30px;
+}
+.lostspace{
+    margin-top: 30px;
+}
 .bottomheavy {
     margin-top: 0px;
 }
@@ -745,6 +751,10 @@ body {
         padding-top: 0px;
         margin-bottom: 20px;
     }
+    
+    .contactmepush{
+        margin-left: 20px;
+    }
     .linkpadding {
         padding-left: 10px;
         padding-right: 10px;
@@ -888,13 +898,13 @@ body {
     position: fixed;
     width: 80px;
     height: 70px;
-    margin-top: 85vh;
+    margin-top: 80vh;
     margin-left: 20px;
 }
 #mobindexicon {
     width: 17%;
     position: fixed;
     right: 0;
-    margin-top: 72vh;
+    margin-top: 80vh;
     padding: px;
 }

@@ -10,6 +10,8 @@ body {
 .show-for-large-only {
     display: none;
 }
+
+
 .show-for-mobile-only {
     display: none;
 }
@@ -86,6 +88,7 @@ body {
         padding-top: 0px;
         padding-bottom: 30px;
         margin-top: 20px;
+        max-width: 350px;
     }
 }
 hr {
@@ -130,6 +133,10 @@ hr {
         margin-top: 100px;
     }*/
 }
+
+.banishedspace{
+    display: none;
+}
 .image-gallery-item {
     margin-bottom: 30px;
 }
@@ -154,6 +161,15 @@ hr {
 /*MOBBBIIIILLLLEEE*/
 
 @media (max-width: 767px) {
+    .image-gallery-item,
+    .intro-content {
+        margin-right: -20px;
+    }
+
+    .thing {
+        margin-left: -25px;
+        width: 100%;
+    }
     .image-gallery-content {
         font-size: 15px;
         line-height: 25px;
