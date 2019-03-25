@@ -114,8 +114,8 @@ function mobcontacthover(element) {
              autoplay:true
       });
 
-      var titles= ["TRAIL OF TERROR", "MALDIVES", "MOTYF "];
-      var details= ["Editorial Design", "Motion Design", "Visual Identity"];
+      var titles= ["MALDIVES", "MOTYF","LOST CHILDREN", "BANISHED"];
+      var details= [ "Motion Design", "Visual Identity","Editorial Design","Identity Design"];
 
       $('.slider').on('afterChange', function() {
 	    var dataId = $('.slick-current').attr("data-slick-index");   
@@ -213,10 +213,11 @@ function mobcontacthover(element) {
       function yScroll(){
       desc = document.getElementById('mobdescTitle');
       details = document.getElementById('mobdescDetail');
-      yPos = window.pageYOffset;
+      
+          yPos = window.pageYOffset;
       if(yPos < 400){
-        desc.innerHTML = "TRAIL OF TERROR";
-        details.innerHTML = "Editorial Design";
+        desc.innerHTML = "MALDIVES";
+        details.innerHTML = "Motion Design";
         var newcheck=1;
         if (newcheck!=check){
           check=1;
@@ -225,8 +226,8 @@ function mobcontacthover(element) {
         
 
       } else if(yPos < 900) {
-        desc.innerHTML = "MALDIVES";
-        details.innerHTML = "Motion Design";
+        desc.innerHTML = "MOTYF";
+        details.innerHTML = "Visual Identity";
         var newcheck=2;
         if (newcheck!=check){
           check=2;
@@ -234,14 +235,27 @@ function mobcontacthover(element) {
         }
       }
       else if(yPos < 1400) {
-        desc.innerHTML = "MOTYF";
-        details.innerHTML = "Visual Identity";
+        desc.innerHTML = "LOST CHILDREN";
+        details.innerHTML = "Editorial Design";
         var newcheck=3;
         if (newcheck!=check){
           check=3;
           mobwordshuffle();
         }
       }
+          
+    
+          else if(yPos < 2000) {
+        desc.innerHTML = "BANISHED";
+        details.innerHTML = "Identity Design";
+        var newcheck=4;
+        if (newcheck!=check){
+          check=4;
+          mobwordshuffle();
+        }
+      }
+          
+   
    
       
     }
